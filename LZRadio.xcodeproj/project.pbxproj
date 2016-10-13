@@ -14,6 +14,7 @@
 		DFCD6A791D694CE700FAFD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD6A771D694CE700FAFD8C /* LaunchScreen.storyboard */; };
 		DFCD6A841D694CE700FAFD8C /* LZRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6A831D694CE700FAFD8C /* LZRadioTests.swift */; };
 		DFCD6A8F1D694CE700FAFD8C /* LZRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6A8E1D694CE700FAFD8C /* LZRadioUITests.swift */; };
+		DFD1C1441D95DEDC007BC0FD /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD1C1431D95DEDC007BC0FD /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DFCD6A8A1D694CE700FAFD8C /* LZRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCD6A8E1D694CE700FAFD8C /* LZRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZRadioUITests.swift; sourceTree = "<group>"; };
 		DFCD6A901D694CE700FAFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD1C1431D95DEDC007BC0FD /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DFCD6A751D694CE700FAFD8C /* Assets.xcassets */,
 				DFCD6A771D694CE700FAFD8C /* LaunchScreen.storyboard */,
 				DFCD6A7A1D694CE700FAFD8C /* Info.plist */,
+				DFD1C1431D95DEDC007BC0FD /* View.xib */,
 			);
 			path = LZRadio;
 			sourceTree = "<group>";
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					DFCD6A6A1D694CE700FAFD8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					DFCD6A7E1D694CE700FAFD8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = DFCD6A6A1D694CE700FAFD8C;
 					};
 					DFCD6A891D694CE700FAFD8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = DFCD6A6A1D694CE700FAFD8C;
 					};
 				};
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD1C1441D95DEDC007BC0FD /* View.xib in Resources */,
 				DFCD6A791D694CE700FAFD8C /* LaunchScreen.storyboard in Resources */,
 				DFCD6A761D694CE700FAFD8C /* Assets.xcassets in Resources */,
 				DFCD6A741D694CE700FAFD8C /* Main.storyboard in Resources */,
@@ -405,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadioTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZRadio.app/LZRadio";
 			};
 			name = Debug;
@@ -439,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadioTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZRadio.app/LZRadio";
 			};
 			name = Release;
@@ -450,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadioUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LZRadio;
 			};
 			name = Debug;
@@ -461,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizard-Systems.LZRadioUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LZRadio;
 			};
 			name = Release;
@@ -484,6 +497,7 @@
 				DFCD6A951D694CE700FAFD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCD6A961D694CE700FAFD8C /* Build configuration list for PBXNativeTarget "LZRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				DFCD6A981D694CE700FAFD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCD6A991D694CE700FAFD8C /* Build configuration list for PBXNativeTarget "LZRadioUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				DFCD6A9B1D694CE700FAFD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
